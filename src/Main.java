@@ -1,17 +1,27 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Завдання 1: Вивід валідних номерів телефонів з файлу
+        String phoneFileName = "phoneNumbers.txt";
+        printValidPhoneNumbers(phoneFileName);
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Завдання 2: Підрахунок частоти слів у файлі
+        String wordsFileName = "words.txt";
+        countWordFrequency(wordsFileName);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        // Завдання 3: Зчитування файлу з користувачами та збереження у форматі JSON
+        String usersFileName = "Users.txt";
+        convertToJSON(usersFileName);
+    }
+
+    private static void printValidPhoneNumbers(String fileName) {
+        // Код завдання 1 тут
+    }
+
+    private static void countWordFrequency(String fileName) {
+        // Код завдання 2 тут
+    }
+
+    private static void convertToJSON(String fileName) {
+        // Код завдання 3 тут
     }
 }
