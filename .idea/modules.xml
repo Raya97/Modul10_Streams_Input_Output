@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/File/File.iml" filepath="$PROJECT_DIR$/src/File/File.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Modul10_Streams_Input_Output.iml" filepath="$PROJECT_DIR$/Modul10_Streams_Input_Output.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/User/User.iml" filepath="$PROJECT_DIR$/src/User/User.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Words/Words.iml" filepath="$PROJECT_DIR$/src/Words/Words.iml" />
     </modules>
